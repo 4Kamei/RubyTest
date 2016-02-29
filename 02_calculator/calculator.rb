@@ -14,3 +14,9 @@ def multiply(arr)
   arr.each { |x| sum *=x}
   sum
 end
+def power(a, b)
+  a ** b
+end
+def factorial(a)
+  a+1
+end
