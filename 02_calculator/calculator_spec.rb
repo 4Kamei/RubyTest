@@ -113,6 +113,6 @@ describe "#factorial" do
   end
 
   it "computes the factorial of 10" do
-    factorial(10).should == 1
+    factorial(10).should == 3628800
   end
 end

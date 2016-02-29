@@ -18,5 +18,5 @@ def power(a, b)
   a ** b
 end
 def factorial(a)
-  a+1
+  (1..a).inject(:*) || 1
 end
